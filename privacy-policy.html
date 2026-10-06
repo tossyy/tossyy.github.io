@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Privacy Policy — Digital History Uploader</title>
+  <style>
+
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <style type="text/css">body { max-width: 44em; margin: 2em auto; padding: 0 1em; font-family: Helvetica, Arial, sans-serif; line-height: 1.6; color: #222; }
+h1, h2 { line-height: 1.3; }
+a { word-break: break-all; }
+code { background: #f3f3f3; padding: 0 .2em; }
+</style>
+</head>
+<body>
+<h1 id="privacy-policy--digital-history-uploader">Privacy Policy —
+Digital History Uploader</h1>
+<p>Last updated: 2026-10-06</p>
+<p>Digital History Uploader is a personal, non-commercial command-line
+tool that uploads videos produced by its operator to the operator&#39;s own
+YouTube channel. It uses the YouTube API Services.</p>
+<p>By using this tool, you agree to be bound by the YouTube Terms of
+Service: <a href="https://www.youtube.com/t/terms">https://www.youtube.com/t/terms</a></p>
+<p>Terms of Service of this tool: <a href="https://tossyy.github.io/terms-of-service.html">https://tossyy.github.io/terms-of-service.html</a></p>
+<p>Google&#39;s handling of data is described in the Google Privacy Policy:
+<a href="https://www.google.com/policies/privacy">https://www.google.com/policies/privacy</a></p>
+<h2 id="who-uses-this-tool">Who uses this tool</h2>
+<p>The tool is used only by its operator, on the operator&#39;s own
+computer, for the operator&#39;s own YouTube channel. It is not offered to
+other users and does not request authorization from any other Google
+account.</p>
+<h2 id="what-information-the-tool-accesses">What information the tool
+accesses</h2>
+<ul>
+<li>An OAuth 2.0 access token and refresh token for the operator&#39;s
+Google account, with the scope
+<code>https://www.googleapis.com/auth/youtube.upload</code>.</li>
+<li>No other user data is requested. The tool does not read viewer data,
+comments, subscriber lists, or analytics.</li>
+</ul>
+<h2 id="how-the-information-is-used">How the information is used</h2>
+<ul>
+<li>The tokens are used only to call <code>videos.insert</code> (upload
+a video with its title, description, and tags) and
+<code>thumbnails.set</code> (set the video&#39;s thumbnail).</li>
+<li>The ID of each uploaded video is saved locally so the same video is
+not uploaded twice.</li>
+</ul>
+<h2 id="storage-and-sharing">Storage and sharing</h2>
+<ul>
+<li>The tokens are stored only on the operator&#39;s computer, in a file
+readable only by the operator&#39;s user account. They are never sent to any
+server other than Google&#39;s.</li>
+<li>No information obtained through the YouTube API Services is shared
+with any third party.</li>
+<li>The tool does not use cookies, analytics, or advertising.</li>
+</ul>
+<h2 id="revoking-access-and-deleting-data">Revoking access and deleting
+data</h2>
+<p>Access can be revoked at any time from the Google Account permissions
+page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a></p>
+<p>Deleting the local token file removes all stored authorization data.
+The tool stores no other data obtained from the YouTube API
+Services.</p>
+<h2 id="contact">Contact</h2>
+<p><a href="mailto:t.katsube1014@gmail.com">t.katsube1014@gmail.com</a></p>
+</body>
+</html>
